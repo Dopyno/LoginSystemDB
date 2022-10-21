@@ -70,7 +70,7 @@ public class LoginController implements Initializable {
         }
     }
     @FXML
-    public void clear(){
+    public void clear(){ 
         user.setText("");
         password.setText("");
     }
